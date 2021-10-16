@@ -13,6 +13,10 @@
         <label for="name">Hero name: </label>
         <input type="text" id="name" placeholder="name" [(ngModel)]="hero.name" />
     </div>
+
+    <div>
+        <button (click)="save()">Save</button>
+    </div>
 </div>
 
 <button (click)="goBack()">Go back</button>
